@@ -1,0 +1,124 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    background: #1f1f1f;
+    display: flex;
+    width: 100%;
+}
+
+.navbar{
+    width: 100%;
+    padding-right: 10vw;
+    font-size: 1em;
+}
+
+.navbar__ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    gap: 2vw;
+    text-transform: uppercase;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.main__section{
+
+    background: rgb(0,5,255);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 50%, rgba(38,0,255,0) 100%);
+    padding: 5vh 0;
+}
+
+.main__left {
+
+}
+
+.main__left span{
+    font-size: clamp(40px, 7vw, 70px);
+    width: 40%;
+    display: block;
+}
+
+
+.exchange__span{
+    color: rgb(0, 153, 255);
+}
+
+.main__right{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 5vh 0;
+
+}
+.main__right span{
+    font-size: 30px;
+    max-width: 360px;
+    display: inline-block;
+}
+
+.main__right input, .main__right button{
+    outline: none;
+    border: 1px solid #000
+}
+
+.main__right input {
+    padding: 1vh .3vw;
+ 
+    font-size: 20px;
+    background: rgb(0,5,255);
+    color: #fff;
+
+}
+
+.main__right input::placeholder{
+    color: #ffffff8c;
+}
+
+.main__right button {
+    padding: 1vh .4vw;
+    font-size: 20px;
+    background: rgb(0,5,255);
+    color: #fff;
+}
+
+
+.rate{
+    padding: 5vh 0;
+    background: #000;
+}
+
+.rate h2{
+    font-size: clamp(30px, 5vw, 40px);
+}
+
+.rates{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin: 3vh 0;
+}
+
+.rates__item{
+    background: #1f1f1f;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.rates__item img{
+    height: clamp(30px, 6vw, 50px);
+    
+    width: clamp(30px, 6vw, 50px);
+
+}
