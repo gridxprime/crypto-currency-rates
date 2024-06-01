@@ -3,6 +3,10 @@ import './style.css'
 import HeaderImg from '../assets/img/Header/exchange.png'
 
 function Header() {
+
+
+
+  
   return (
     <>
         <header className='header'>
@@ -10,7 +14,7 @@ function Header() {
             <nav className='navbar'>
                 <ul className='navbar__ul'>
                     <li>Купить криптовалюту</li>
-                    <li>Вакансии</li>
+                    <li>Новости</li>
                     <li>API</li>
                     <li>Трейдерам</li>
                     <li>Обучение</li>

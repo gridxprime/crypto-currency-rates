@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap');
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -6,6 +10,7 @@
 
 body{
   background: #3f3f3f;
-font-family: Arial, Helvetica, sans-serif;
+  font-family: "Chocolate Classical Sans", sans-serif;
+
   color: #fff;
 }

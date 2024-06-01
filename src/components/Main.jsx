@@ -1,6 +1,10 @@
 import React from 'react'
 
 function Main() {
+
+
+
+  
   return (
 <>
 <section className='main__section'>
@@ -11,18 +15,37 @@ function Main() {
             
         </div>
 
-        </div>
-
         <div className="main__right">
+          <div className="main__right-news">
+            <div className="main__right-news-item">
+              <h3>Корейская биржа Upbit добавила несколько токенов. Все они взлетели в цене</h3>
+              <span>Криптобиржа провела листинги сразу нескольких токенов в преддверии ужесточения законодательства в сфере криптовалют в Южной Корее</span>
+              </div>
+            <div className="main__right-news-item">
+              <h3>$700 млн в виде криптовалютных токенов будет разблокировано в июне</h3>
+              <span>В июне пройдет разблокировка токенов на сумму $730 млн, включая криптовалюты dYdX, Arbitrum, ApeCoin и другие проекты</span>
+            </div>
+            <div className="main__right-news-item">
+              <h3>Маск ответил на статью Bloomberg о консультациях Трампу по криптовалютам</h3>
+              <span>Криптовалюты неожиданно стали важным вопросом на повестке президентских выборов в США</span>
+            </div>
+            <div className="subscribe">
             <span>
-                Для начала работы введите свой номер 
-              телефона или Email и мы отправим Вам регистрационные данные:
+               Подписаться на рассылку новостей:
             </span>
             <form action="">
-            <input type="text" placeholder='Номер телефона/Email'/>
+            <input type="text" placeholder='Email@example.com'/>
             <button>Отправить</button>
-            </form>
+
+            </form>           
+             </div>
+          </div>
+
         </div>
+
+        </div>
+
+
         </div>
 
         
