@@ -33,7 +33,7 @@ function Main() {
             <span>
                Подписаться на рассылку новостей:
             </span>
-            <form action="">
+            <form className='sub__form' action="">
             <input type="text" placeholder='Email@example.com'/>
             <button>Отправить</button>
 

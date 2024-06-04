@@ -1,0 +1,54 @@
+@media all and (max-width: 1282px) {
+    .main{
+
+
+        width: 100%;
+        gap: 3vh;
+    }
+
+    .main__left{
+        max-width: 100%;
+    }
+
+    .main__right{
+        max-width: 700px;
+
+    }
+
+    .container{
+        width: 90%;
+    }
+
+}
+
+
+@media all and (max-width: 974px) {
+    .rates{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media all and (max-width: 590px) {
+    .rates{
+        grid-template-columns: 1fr;
+    }
+}
+@media all and (max-width: 480px) {
+
+.sub__form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+    .main__right input {
+        border-radius: 25px;
+    }
+    
+    
+    .main__right button {
+        border-radius: 25px;
+        width: 50%;
+    }
+    
+}

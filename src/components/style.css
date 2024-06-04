@@ -17,7 +17,7 @@
 .navbar{
     width: 100%;
     padding-right: 10vw;
-    font-size: 1em;
+    font-size: clamp(13px, 1.3vw, 20px)
 
 }
 
@@ -46,23 +46,25 @@
 .main{
     display: flex;
     min-height: 100vh;
-
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: .9vw;
 }
 
 .main__section{
 
     background: rgb(0,5,255);
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 50%, rgba(38,0,255,0) 100%);
-    padding: 12vh 0 5vh;
+    padding: 100px 0 5vh;
 }
 
 .main__left {
-    width: 50%;
+    max-width: 500px;
 }
 
 .main__left span{
-    font-size: clamp(30px, 6vw, 55px);
-    width: 40%;
+    font-size: clamp(40px, 6.2vw, 68px);
+    width: 75%;
     display: block;
 }
 
@@ -75,8 +77,8 @@
     display: flex;
     flex-direction: column;
     gap: 2vh;
+    max-width: 500px;
 
-    width: 50%;
     justify-content: space-between;
 }
 
@@ -123,8 +125,9 @@
   
 }
 
+
 .main__right input {
-    padding: 1vh .3vw;
+    padding: 10px 15px;
  
     font-size: 20px;
     background: rgb(0,5,255);
@@ -151,6 +154,7 @@
     padding: 7vh 0;
     background: #000;
     min-height: 100vh;
+    width: 100%;
 }
 
 .rate .container{
@@ -169,12 +173,19 @@
 }
 
 .rates{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+
+/*     
     display: flex;
     align-items: stretch;
-    gap: 5vh;
-    margin: 3vh 0;
+    gap: 20px 30px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; */
+
+    margin: 3vh 0;
+
 }
 
 .rates__item{
@@ -183,7 +194,7 @@
     display: flex;
     flex-direction: column;
     gap: 1vh;
-    width: 200px;
+    min-width: 250px;
     border-radius: 20px;
     opacity: .9;
     transition: .3s ease all;
@@ -231,4 +242,9 @@
     display: flex;
     flex-direction: column;
     gap: 1vh;
+}
+
+
+.subscribe button{
+    padding: 10px 15px;
 }
