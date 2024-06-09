@@ -6,6 +6,7 @@ import ethIcon from '../assets/img/Main/eth.svg'
 import gasIcon from '../assets/img/Main/gas.svg'
 import sushiIcon from '../assets/img/Main/sushi.svg'
 import audrIcon from '../assets/img/Main/audr.svg'
+import './style.css'
 
 function Rate() {
   const [btcPrice, setBtcPrice] = useState(0);

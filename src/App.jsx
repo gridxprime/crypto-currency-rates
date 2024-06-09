@@ -26,19 +26,8 @@ function App() {
 <Route path='/' element={<>
 
   <Main />
-  <Rate>
-          
-
-          </Rate>
-
-</>} />
-
-
-
- 
-
-  
-  
+    <Rate />
+          </>} />
         <Route path="/audr" element={<Audr />} />
         <Route path="/bnb" element={<Bnb />} />
         <Route path="/btc" element={<Btc />} />

@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 import HeaderImg from '../assets/img/Header/exchange.png'
+import { Link } from 'react-router-dom'
 
 
 function Header() {
@@ -11,7 +12,7 @@ function Header() {
   return (
     <>
         <header title='Криптовалюта онлайн' className='header'>
-        <img src={HeaderImg} alt="" />
+        <Link to='/'><img src={HeaderImg} alt="" /></Link>
             <nav className='navbar'>
                 <ul className='navbar__ul'>
                     <li>Купить криптовалюту</li>

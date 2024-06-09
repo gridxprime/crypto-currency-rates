@@ -177,6 +177,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 25px;
 
+
 /*     
     display: flex;
     align-items: stretch;
@@ -198,6 +199,8 @@
     border-radius: 20px;
     opacity: .9;
     transition: .3s ease all;
+    color: #fff;
+    text-decoration: none;
 }
 
 
