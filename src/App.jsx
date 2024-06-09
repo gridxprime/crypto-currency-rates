@@ -17,20 +17,35 @@ function App() {
 
   return (
     <>
-        <Header>
+        <Header />
 
-        </Header>
-        <Main>
 
-        </Main>
-        <Rate>
+        <Routes>
+
+
+<Route path='/' element={<>
+
+  <Main />
+  <Rate>
           
 
-        </Rate>
-        <Routes>
-          <Route path='/' element={<Main></Main>}></Route>
-          <Route path='/audr' element={<Audr></Audr>}></Route>
-        </Routes>
+          </Rate>
+
+</>} />
+
+
+
+ 
+
+  
+  
+        <Route path="/audr" element={<Audr />} />
+        <Route path="/bnb" element={<Bnb />} />
+        <Route path="/btc" element={<Btc />} />
+        <Route path="/eth" element={<Eth />} />
+        <Route path="/gas" element={<Gas />} />
+        <Route path="/sushi" element={<Sushi />} />
+      </Routes>
     </>
   )
 }

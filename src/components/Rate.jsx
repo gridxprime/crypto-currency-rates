@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import bnbIcon from '../assets/img/Main/bnb.svg'
 import btcIcon from '../assets/img/Main/btc.svg'
 import ethIcon from '../assets/img/Main/eth.svg'
@@ -62,36 +63,36 @@ function Rate() {
         <h2>Текущий курс криптовалют</h2>
         <h3>Относительно USDT:</h3>
         <div className="rates">
-          <div className="rates__item">
+          <Link to="/btc" className="rates__item">
             <h3>BTC</h3>
             <span>{btcPrice}</span>
-            <img src={btcIcon} alt="" />
-          </div>
-          <div className="rates__item">
+            <img src={btcIcon} alt="BTC Icon" />
+          </Link>
+          <Link to="/eth" className="rates__item">
             <h3>ETH</h3>
             <span>{ethPrice}</span>
-            <img src={ethIcon} alt="" />
-          </div>
-          <div className="rates__item">
+            <img src={ethIcon} alt="ETH Icon" />
+          </Link>
+          <Link to="/gas" className="rates__item">
             <h3>GAS</h3>
             <span>{gasPrice}</span>
-            <img src={gasIcon} alt="" />
-          </div>
-          <div className="rates__item">
+            <img src={gasIcon} alt="GAS Icon" />
+          </Link>
+          <Link to="/bnb" className="rates__item">
             <h3>BNB</h3>
             <span>{bnbPrice}</span>
-            <img src={bnbIcon} alt="" />
-          </div>
-          <div className="rates__item">
+            <img src={bnbIcon} alt="BNB Icon" />
+          </Link>
+          <Link to="/sushi" className="rates__item">
             <h3>SUSHI</h3>
             <span>{sushiPrice}</span>
-            <img src={sushiIcon} alt="" />
-          </div>
-          <div className="rates__item">
+            <img src={sushiIcon} alt="SUSHI Icon" />
+          </Link>
+          <Link to="/audr" className="rates__item">
             <h3>AUDRamp</h3>
             <span>{audrPrice}</span>
-            <img src={audrIcon} alt="" />
-          </div>
+            <img src={audrIcon} alt="AUDR Icon" />
+          </Link>
         </div>
       </div>
     </section>
