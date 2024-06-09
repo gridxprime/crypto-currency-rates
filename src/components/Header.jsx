@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import HeaderImg from '../assets/img/Header/exchange.png'
 
+
 function Header() {
 
 
@@ -9,7 +10,7 @@ function Header() {
   
   return (
     <>
-        <header className='header'>
+        <header title='Криптовалюта онлайн' className='header'>
         <img src={HeaderImg} alt="" />
             <nav className='navbar'>
                 <ul className='navbar__ul'>
