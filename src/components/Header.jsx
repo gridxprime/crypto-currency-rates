@@ -26,7 +26,7 @@ function Header() {
             <li>О нас</li>
           </ul>
         </nav>
-        <div className="burger" onClick={toggleMenu}>
+        <div className={`burger ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
           <span></span>
           <span></span>
           <span></span>

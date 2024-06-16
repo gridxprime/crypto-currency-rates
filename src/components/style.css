@@ -56,14 +56,30 @@
     flex-direction: column;
     gap: 3px;
     padding-right: 15px;
+ 
 }
 
 .burger span{
     width: 30px;
-    height: 5px;
-
+    height: 4.5px;
+    transition: .2s all linear;
     background: #fff;
+    transform-origin: center; /* Set transform-origin to center */
+
 }
+
+.burger.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .burger.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .burger.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
 
 .main{
     display: flex;
@@ -290,3 +306,4 @@ line-height: 200%;
 
 
 }
+
