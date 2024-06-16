@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header';
 import Main from './components/Main';
 import Rate from './components/Rate';
+import Footer from './components/Footer';
 import './media.css';
 import { Routes, Route } from 'react-router-dom';
 import Audr from './components/pages/Audr';
@@ -20,21 +21,25 @@ function App() {
         <Header />
 
 
-        <Routes>
+<Routes>
 
 
-<Route path='/' element={<>
+<Route path='/' element={
 
-  <Main />
+<>
+    <Main />
     <Rate />
-          </>} />
+    <Footer />
+          </>}
+ />
         <Route path="/audr" element={<Audr />} />
         <Route path="/bnb" element={<Bnb />} />
         <Route path="/btc" element={<Btc />} />
         <Route path="/eth" element={<Eth />} />
         <Route path="/gas" element={<Gas />} />
         <Route path="/sushi" element={<Sushi />} />
-      </Routes>
+</Routes>
+
     </>
   )
 }

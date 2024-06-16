@@ -26,7 +26,19 @@
     .rates{
         grid-template-columns: 1fr 1fr;
     }
+
+    .footer{
+        gap: 30px;
+    }
 }
+
+@media all and (max-width: 785px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media all and (max-width: 590px) {
     .rates{
         grid-template-columns: 1fr;
@@ -49,6 +61,13 @@
     .main__right button {
         border-radius: 25px;
         width: 50%;
+    }
+
+
+
+    .footer {
+    
+        grid-template-columns: 1fr
     }
     
 }

@@ -1,0 +1,28 @@
+@media all and (max-width: 930px) {
+    .burger {
+      display: flex;
+      z-index: 6;
+    }
+  
+    .navbar__ul {
+      position: absolute;
+      background: #1f1f1f;
+      min-height: 50vh;
+      width: 100%;
+      z-index: 4;
+      flex-direction: column;
+      top: -1000%; /* Скрыть меню за пределами экрана */
+      transition: top .8s linear;
+    }
+  
+    .navbar__ul.open {
+      top: 0%; /* Показать меню */
+    }
+  }
+
+
+  @media all and (max-width: 470px) {
+    .navbar__ul{
+        min-height: 100vh;
+    }
+  }

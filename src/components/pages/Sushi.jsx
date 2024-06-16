@@ -1,10 +1,14 @@
 import React from 'react'
+import './style.css'
+
 
 function Sushi() {
   return (
-    <div>
-      
-    </div>
+<section className='rates__page'>
+dasfsdafasd
+
+</section>
+
   )
 }
 
