@@ -11,7 +11,7 @@
       width: 100%;
       z-index: 4;
       flex-direction: column;
-      top: -1000%; /* Скрыть меню за пределами экрана */
+      top: -100vh; /* Скрыть меню за пределами экрана */
       transition: top .8s linear;
     }
   
