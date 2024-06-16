@@ -11,6 +11,7 @@ import Btc from './components/pages/Btc';
 import Eth from './components/pages/Eth';
 import Gas from './components/pages/Gas';
 import Sushi from './components/pages/Sushi';
+import ScrollToTop from './ScrollToTop';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
   return (
     <>
         <Header />
-
+        <ScrollToTop />
 
 <Routes>
 
