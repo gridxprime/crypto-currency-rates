@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './style.css'
 import './media.css'
 import Footer from '../Footer.jsx'
-
+import btcIcon from '../../assets/img/Main/btc.svg'
 
 function Btc() {
 
@@ -31,12 +31,22 @@ function Btc() {
   <>
 
 <section className='rates__page'>
-    <h2>
-      Курс Bitcoin
-    </h2>
+    <div className="crypto__inner">
+      <h2> Курс Bitcoin</h2>
+      <img style={{width: '50px'}} src={btcIcon} alt="" />
+      </div>
+    <div className="crypto__rate">
+
     <span className='crypto__price'>
       {btcPrice}
     </span>
+    <span className='crypto__desc'>
+    Bitcoin - это криптовалюта, созданная в 2009 году
+     неким Сатоши Накамото (псевдоним), и ставшая первой и 
+     самой популярной цифровой валютой в мире. С момента своего запуска Bitcoin привлекает внимание как обычных пользователей, так и финансовых институтов, инвесторов и технологических компаний благодаря своей инновационной концепции, децентрализации 
+    и потенциалу для революции в мировой финансовой системе.
+    </span>
+    </div>
  
 
 </section>

@@ -3,11 +3,29 @@
     padding: 100px 30px 0;
 }
 
+.crypto__inner{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 
 .crypto__price{
-    display: block;
-    padding: 20px 0;
-    font-size: clamp(25px, 3vw, 40px);
 
 
+    font-size: clamp(30px, 3vw, 45px);
+
+
+}
+
+.crypto__rate{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.crypto__desc{
+    margin: 30px 0;
+    font-size: clamp(22px, 3vw, 30px);
+    max-width: 700px;
 }
