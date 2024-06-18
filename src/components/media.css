@@ -3,7 +3,9 @@
       display: flex;
       z-index: 6;
     }
-  
+  .header{
+    padding-right: 0;
+  }
     .navbar__ul {
       position: absolute;
       background: #1f1f1f;
