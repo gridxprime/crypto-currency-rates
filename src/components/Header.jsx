@@ -17,7 +17,7 @@ function Header() {
         <nav className='navbar'>
           <Link to='/'><img src={HeaderImg} alt="Логотип" /></Link>
           <ul className={`navbar__ul ${menuOpen ? 'open' : ''}`}>
-            <li>Купить криптовалюту</li>
+            <Link style={{color: '#fff', textDecoration: 'none'}} to='/buy-crypto'><li>Купить криптовалюту</li></Link>
             <li>Новости</li>
             <li>API</li>
             <li>Трейдерам</li>

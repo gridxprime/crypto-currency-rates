@@ -12,7 +12,7 @@ import Eth from './components/pages/Eth';
 import Gas from './components/pages/Gas';
 import Sushi from './components/pages/Sushi';
 import ScrollToTop from './ScrollToTop';
-
+import BuyCrypto from './components/pages/BuyCryptoPage/Crypto'
 
 function App() {
 
@@ -39,6 +39,7 @@ function App() {
         <Route path="/eth" element={<Eth />} />
         <Route path="/gas" element={<Gas />} />
         <Route path="/sushi" element={<Sushi />} />
+        <Route path='/buy-crypto' element={<BuyCrypto></BuyCrypto>}/>
 </Routes>
 
     </>

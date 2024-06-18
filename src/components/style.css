@@ -43,7 +43,8 @@
 
 }
 
-.navbar__ul li{
+.navbar__ul:visited{
+    color: #fff;
    
 }
 

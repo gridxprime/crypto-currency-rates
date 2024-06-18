@@ -10,6 +10,10 @@
     gap: 15px;
 }
 
+.crypto__inner h2{
+    font-size: clamp(30px, 3vw, 45px);
+}
+
 .crypto__price{
 
 
