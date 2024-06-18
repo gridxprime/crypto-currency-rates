@@ -11,13 +11,18 @@ function Header() {
     setMenuOpen(!menuOpen);
   };
 
+
+  const closeMenu = () => {
+    setMenuOpen(false)
+  }
+
   return (
     <>
       <header title='Криптовалюта онлайн' className='header'>
         <nav className='navbar'>
           <Link to='/'><img src={HeaderImg} alt="Логотип" /></Link>
           <ul className={`navbar__ul ${menuOpen ? 'open' : ''}`}>
-            <Link style={{color: '#fff', textDecoration: 'none'}} to='/buy-crypto'><li>Купить криптовалюту</li></Link>
+            <Link onClick={closeMenu} style={{color: '#fff', textDecoration: 'none'}} to='/buy-crypto'><li>Купить криптовалюту</li></Link>
             <li>Новости</li>
             <li>API</li>
             <li>Трейдерам</li>
