@@ -1,7 +1,4 @@
 .crypto{
-<<<<<<< HEAD
-    padding-top: 64px;
-=======
     padding: 64px 10px 0;
     min-height: 100vh;
     background: #000;
@@ -75,5 +72,4 @@
 
 .crypto__available ul li img{
     width: 50px;
->>>>>>> 8888f87 (v1.4.3 'buy crypto page added')
 }

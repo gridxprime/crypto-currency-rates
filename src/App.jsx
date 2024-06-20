@@ -12,48 +12,37 @@ import Eth from './components/pages/Eth';
 import Gas from './components/pages/Gas';
 import Sushi from './components/pages/Sushi';
 import ScrollToTop from './ScrollToTop';
-import BuyCrypto from './components/pages/BuyCryptoPage/Crypto'
+import BuyCrypto from './components/pages/BuyCryptoPage/Crypto';
 
 function App() {
-
-
   return (
     <>
-        <Header />
-        <ScrollToTop />
+      <Header />
+      <ScrollToTop />
+      <Routes>
+        <Route 
+          path='/' 
+          element={
+            <>
+              <Main />
+              <Rate />
+              <Footer />
+            </>
+          } 
+        />
 
-<Routes>
 
 
-<Route path='/' element={
-
-<<<<<<< HEAD
-<>
-    <Main />
-    <Rate />
-    <Footer />
-          </>}
- />
-=======
-      <>
-          <Main />
-          <Rate />
-          <Footer />
-                </>
-                }
-      />
->>>>>>> 8888f87 (v1.4.3 'buy crypto page added')
         <Route path="/audr" element={<Audr />} />
         <Route path="/bnb" element={<Bnb />} />
         <Route path="/btc" element={<Btc />} />
         <Route path="/eth" element={<Eth />} />
         <Route path="/gas" element={<Gas />} />
         <Route path="/sushi" element={<Sushi />} />
-        <Route path='/buy-crypto' element={<BuyCrypto></BuyCrypto>}/>
-</Routes>
-
+        <Route path='/buy-crypto' element={<BuyCrypto />} />
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
