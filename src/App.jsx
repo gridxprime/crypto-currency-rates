@@ -27,12 +27,22 @@ function App() {
 
 <Route path='/' element={
 
+<<<<<<< HEAD
 <>
     <Main />
     <Rate />
     <Footer />
           </>}
  />
+=======
+      <>
+          <Main />
+          <Rate />
+          <Footer />
+                </>
+                }
+      />
+>>>>>>> 8888f87 (v1.4.3 'buy crypto page added')
         <Route path="/audr" element={<Audr />} />
         <Route path="/bnb" element={<Bnb />} />
         <Route path="/btc" element={<Btc />} />

@@ -1,3 +1,79 @@
 .crypto{
+<<<<<<< HEAD
     padding-top: 64px;
+=======
+    padding: 64px 10px 0;
+    min-height: 100vh;
+    background: #000;
+}
+
+
+.container__crypto{
+    display: flex;
+    margin: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+ 
+}
+
+.container__crypto__inner{
+    padding-right: 100px;
+}
+
+.container__crypto h2{
+    font-size: clamp(30px, 3vw, 45px);
+
+    margin-top: 40px;
+}
+
+.container__crypto span{
+    font-size: clamp(20px, 3vw, 25px);
+    max-width: 800px;
+    display: block;
+    margin-top: 30px;
+    
+}
+
+
+.container__crypto__end{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding-top: 5%;
+    padding-right: 10%;
+
+}
+
+.container__crypto__end img{
+    width: 100px;
+    filter: drop-shadow(#000 10px 10px 5px) drop-shadow(#fff -2px -2px 2px);
+   
+}
+
+
+.crypto__available{
+    padding: 0 50px;
+    font-size: clamp(20px, 3vw, 25px);
+}
+
+
+.crypto__available ul{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    gap: 30px;
+
+}
+
+.crypto__available ul li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.crypto__available ul li img{
+    width: 50px;
+>>>>>>> 8888f87 (v1.4.3 'buy crypto page added')
 }
