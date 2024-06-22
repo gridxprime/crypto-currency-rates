@@ -19,3 +19,16 @@
             padding-right: 0;
         }
 }
+
+@media all and (max-width: 490px) {
+    .crypto__buy-field{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+
+    }
+
+    .crypto__buy-field input, .crypto__buy-field button, .crypto__buy-field select{
+        min-width: 150px;
+    }
+}

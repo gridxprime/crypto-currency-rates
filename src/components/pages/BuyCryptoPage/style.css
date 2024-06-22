@@ -73,3 +73,48 @@
 .crypto__available ul li img{
     width: 50px;
 }
+
+
+.crypto__buy-field{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.crypto__buy-field input{
+    padding: 10px;
+    font-size: large;
+    outline: none;
+    border-radius: 15px;
+    user-select: none;
+}
+
+
+.crypto__buy-field img{
+    width: 50px;
+}
+
+.crypto__buy-field input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+.select{
+    padding: 10px;
+    outline: none;
+    border-radius: 15px;
+    font-size: large;
+}
+
+.select option{
+    
+}
+
+.crypto__buy-field button{
+    font-size: large;
+    border-radius: 15px;
+    padding: 0 20px;
+}

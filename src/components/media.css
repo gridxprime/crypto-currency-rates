@@ -13,12 +13,13 @@
       width: 100%;
       z-index: 4;
       flex-direction: column;
-      top: -100vh; /* Скрыть меню за пределами экрана */
-      transition: top .8s linear;
+      top: -100vh;
+      transition: .4s cubic-bezier(0.075, 0.82, 0.165, 1);
     }
   
     .navbar__ul.open {
-      top: 0%; /* Показать меню */
+      top: 0%;
+
     }
 
 
